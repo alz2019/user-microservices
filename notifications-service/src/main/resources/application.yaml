@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: notifications-service
+  config:
+    import: "optional:configserver:"
+  cloud:
+    stream:
+      bindings:
+        updatedEventConsumer-in-0:
+          destination: user-topic
+          group: user-event-queue

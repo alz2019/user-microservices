@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  notifications-mysql:
+    image: mysql:8.0.31
+    environment:
+      - MYSQL_USER=test
+      - MYSQL_ROOT_PASSWORD=pw
+      - MYSQL_PASSWORD=test
+      - MYSQL_DATABASE=notification
+    ports:
+      - 3306:3306
