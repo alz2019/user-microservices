@@ -15,7 +15,7 @@ Microservice application that stores users as well as their notifications/remind
 * Config Server
 * Discovery Server
 * User Service
-* Notification Service
+* Notifications Service
 
 ## Built With
 
