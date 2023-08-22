@@ -10,4 +10,16 @@ spring:
       bindings:
         updatedEventConsumer-in-0:
           destination: user-topic
-          group: user-event-queue
+#          group: user-event-queue
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    url: jdbc:tc:mysql:8.0.31:///notification
+  cloud:
+    stream:
+      bindings:
+        output:
+          content-type: application/json

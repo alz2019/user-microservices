@@ -7,6 +7,7 @@ import com.alz2019.entity.User;
 import com.alz2019.event.UserUpdatedEvent;
 import com.alz2019.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class UserService {
     private final UserRepository userRepository;
     private final NotificationClient notificationClient;
@@ -38,6 +40,7 @@ public class UserService {
 
         // Publish event
         streamBridge.send("user-topic", new UserUpdatedEvent(user.getId()));
+        log.info("Sending message: %s".formatted(user.getId()));
 
         // Return saved user
         return savedUser;
