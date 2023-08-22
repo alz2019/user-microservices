@@ -27,4 +27,4 @@ Microservice application that stores users as well as their notifications/remind
 * [MySQL](https://www.mysql.com/)
 * [Flyway](https://flywaydb.org/) - Database-migration tool
 * [Gradle](https://gradle.org/) - Dependency management
-* [Spring Cloud Contract](https://spring.io/projects/spring-cloud-contract) & [Testcontainers](https://www.testcontainers.org/) - For integration tests
+* [Spring Cloud Contract](https://spring.io/projects/spring-cloud-contract) & [Testcontainers](https://www.testcontainers.com/) - For integration tests

@@ -10,7 +10,6 @@ spring:
       bindings:
         updatedEventConsumer-in-0:
           destination: user-topic
-#          group: user-event-queue
 ---
 spring:
   config:
