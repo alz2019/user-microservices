@@ -22,8 +22,9 @@ Microservice application that stores users as well as their notifications/remind
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
 * [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix)
-* [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) - RabbitMQ binder implementation
+* [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) - Apache Kafka Binder
 * [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [Flyway](https://flywaydb.org/) - Database-migration tool
 * [Gradle](https://gradle.org/) - Dependency management
+* [Spring Cloud Contract](https://spring.io/projects/spring-cloud-contract) & [Testcontainers](https://www.testcontainers.org/) - For integration tests
