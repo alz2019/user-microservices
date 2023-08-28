@@ -22,7 +22,7 @@ Microservice application that stores users as well as their notifications/remind
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
 * [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix)
-* [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) - Apache Kafka Binder
+* [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream) + [Apache Kafka Binder](https://github.com/spring-cloud/spring-cloud-stream#apache-kafka-binder)
 * [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
 * [Flyway](https://flywaydb.org/) - Database-migration tool
